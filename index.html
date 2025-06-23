@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O-Ringen Testside</title>
+<link rel="icon" href="https://oringen.se/images/18.660bf8cf18c8acbdb7981c5f/1705429804437/O-Ringen_Logotyp_Generell_Vit_RGB%20(1).svg">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://i.postimg.cc/Y0R9SPcK/Skjermbilde-2025-03-20-172320.png') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+    }
+
+    .content {
+      text-align: center;
+      color: white;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for readability */
+      margin: 50px auto;
+      max-width: 800px;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        background-size: cover;
+      }
+
+      .content {
+        margin: 20px;
+        padding: 15px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .content {
+        margin: 10px;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <script type="text/javascript">
+
+
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '6851c5acf4ab6139842385fd' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production',
+          voice: {
+            url: "https://runtime-api.voiceflow.com"
+          }
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+
+    
+  </script>
+</body>
+</html>
